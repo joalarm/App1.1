@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">App1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="signo_suma">+</string>
+    <string name="signo_resta">-</string>
+    <string name="signo_multi">*</string>
+    <string name="signo_divide">/</string>
+    <string name="title_activity_acerca_de">Acerca De</string>
+    <string name="title_activity_calculadora_financiera">CalculadoraFinancieraActivity</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="valor_v">Valor Vehiculo</string>
+    <string name="cuota_i">Cuota Inicial</string>
+    <string name="interes_m">Interes Mensual(%)</string>
+    <string name="plazo">Plazo</string>
+    <string name="calcular">Calcular</string>
+</resources>

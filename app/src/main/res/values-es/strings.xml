@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="action_settings">Propiedades</string>
+    <string name="app_name">Calculadora</string>
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="signo_divide">/</string>
+    <string name="signo_multi">*</string>
+    <string name="signo_resta">-</string>
+    <string name="signo_suma">+</string>
+
+</resources>

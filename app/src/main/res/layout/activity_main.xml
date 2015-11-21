@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextNum1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextNum2"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/darker_gray"
+        style="?android:buttonBarStyle"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signo_suma"
+            android:layout_weight="1"
+            android:id="@+id/buttonSuma"
+            android:onClick="sumar"
+            style="?android:buttonBarButtonStyle"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signo_resta"
+            android:layout_weight="1"
+            android:id="@+id/buttonResta"
+            android:onClick="restar"
+            style="?android:buttonBarButtonStyle"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signo_multi"
+            android:layout_weight="1"
+            android:id="@+id/buttonMulti"
+            android:onClick="multiplicar"
+            style="?android:buttonBarButtonStyle"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signo_divide"
+            android:layout_weight="1"
+            android:id="@+id/buttonDivide"
+            android:onClick="dividir"
+            style="?android:buttonBarButtonStyle"
+            />
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewResultado"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
